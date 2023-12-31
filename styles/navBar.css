@@ -1,0 +1,127 @@
+.container__navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.navBar__logo {
+    margin-left: 10px;
+}
+
+.container__barra {
+    margin-right: 10px;
+}
+
+.container__barra .barra__item {
+    width: 40px;
+    height: 5px;
+    background: black;
+    margin-bottom: 4px;
+}
+
+
+.navbar__list {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #8E2424;
+    width: 120px;
+    height: 250px;
+    padding-bottom: 15px;
+}
+
+.navbar__list .navBar__cross {
+    align-self: self-end;
+    margin-right: 15px;
+}
+
+.navbar__list .navBar__cross img {
+    max-width: 20px;
+}
+
+.navbar__list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__list li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.navbar__item {
+    display: none;
+}
+
+.navbar__item .btn__entrar {
+    color:#667085;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar__item .btn__entrar:hover {
+    color: #8E2424;
+    border-bottom: 3px solid #8E2424;
+}
+
+.navbar__item .btn__cadastrar {
+    border: none;
+    background: #8E2424;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container__navBar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container__barra {
+        display: none;
+    }
+
+    .navbar__list {
+        display: flex;
+        flex-direction: row;
+        background: white;
+        position: unset;
+        width: auto;
+        height: auto;
+        column-gap: 2rem;
+        padding-bottom: 0;
+    }
+
+    .navbar__list li:nth-child(6) {
+        display: none;
+    }
+
+    .navbar__list li:nth-child(7) {
+        display: none;
+    }
+
+    .navbar__list .navBar__cross {
+        display: none;
+    }
+
+    .navbar__list li a{
+        text-decoration: none;
+        color: #8E2424;
+    }
+
+    .navbar__list li a:hover {
+        border-bottom: 2px solid #8E2424;
+    }
+
+    .navbar__item {
+        display: flex;
+        align-items: center;
+    }
+}

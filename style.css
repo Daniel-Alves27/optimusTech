@@ -1,0 +1,10 @@
+@import url("/styles/navBar.css");
+@import url("/styles/cabecalho.css");
+@import url("/styles/metricas.css");
+@import url("/styles/vagas.css");
+@import url("/styles/depoimento.css");
+@import url("/styles/footer.css");
+
+body {
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,41 @@
+.container__metricas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    margin: 40px 0;
+}
+
+.metricas__item {
+    width: 280px;
+}
+
+.metricas__item .metricas__resultado {
+    font-size: 60px;
+    color: #8E2424;
+    padding-bottom: 15px;
+}
+
+.metricas__item .metricas__titulo {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.metricas__item .metricas__paragrafo {
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+@media screen and (min-width: 768px) {
+    .container__metricas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 2rem;
+        margin: 90px 40px;
+    }
+}

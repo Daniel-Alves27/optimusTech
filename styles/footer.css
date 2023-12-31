@@ -1,0 +1,51 @@
+
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    background-color: #F9FAFB;
+}
+
+.foorter__info .footer__titulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.foorter__info .footer__paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #667085;
+    padding: 20px 0 40px;
+}
+
+.footer__cadastro .footer__campoEmail {
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    padding: 12px 14px 12px 16px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #667085;
+}
+
+.footer__cadastro .footer__cadastro--botao {
+    width: 116px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    margin-left: 16px;
+    color: white;
+    background: #8E2424;
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #98A2B3;
+    padding: 32px 0;
+}

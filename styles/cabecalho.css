@@ -1,0 +1,38 @@
+.container__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho__sobreNos {
+    font-size: 20px;
+    line-height: 24px;
+    color: #8E2424;
+    margin: 96px 0 24px 0;
+}
+
+.cabecalho__titulo {
+    font-size: 25px;
+    line-height: 60px;
+    padding-bottom: 36px;
+    margin: 0 auto;
+}
+
+.cabecalho__paragrafo {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 107px;
+    color: #667085;
+    text-align: center;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__titulo {
+        font-size: 38px;
+    }
+    
+    .cabecalho__paragrafo {
+        font-size: 23px;
+    }
+}
