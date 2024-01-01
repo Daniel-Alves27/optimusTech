@@ -6,7 +6,7 @@ Desenvolvi este projeto durante o desafio 7 DaysOfCode da Alura.
 | -------------  | --- |
 | :sparkles: Nome        | **optimusTech**
 | :label: Tecnologias | html, css, javascript
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://optimus-tech-lovat.vercel.app/
 | :fire: Desafio     | 7 DaysOfCode
 
 ![](https://imgur.com/1OXPHun.png#vitrinedev)
